@@ -1,0 +1,24 @@
+h1 {
+  color: chocolate;
+  text-align: center;
+}
+
+h2 {
+  color: purple;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  margin: auto
+}
+
+#circle {
+  color: darkcyan;
+  font-size: 40px;
+}
