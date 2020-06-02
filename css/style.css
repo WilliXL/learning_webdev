@@ -1,14 +1,9 @@
-h1 {
+h1, h2, h3 {
   color: chocolate;
   text-align: center;
-}
-
-h2 {
-  color: purple;
-}
-
-body {
-  background-color: lightgray;
+  text-shadow: 2px 2px 5px black;
+  line-height: 1rem;
+  font-family: sans-serif;
 }
 
 .square {
@@ -21,4 +16,24 @@ body {
 #circle {
   color: darkcyan;
   font-size: 40px;
+}
+
+body {
+  background-color: lightgray;
+  background-image: url("https://i.imgflip.com/2xc9z0.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.borderImg {
+  border: 3px dashed red;
+}
+
+ul li {
+  color: white;
+  font-size: 20px;
+}
+
+ul > li {
+  color: yellow;
 }
